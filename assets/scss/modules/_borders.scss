@@ -1,0 +1,39 @@
+.border {
+    &-top-is {
+        &--yellow {
+            border-top: 5px solid;
+            border-color: $yellow;
+        }
+        &--pastelgrey {
+            border-top: 5px solid;
+            border-color: $pastelgrey;
+        }
+        &--orange {
+            border-top: 5px solid;
+            border-color: $orange;
+        }
+        &--cyan {
+            border-top: 5px solid;
+            border-color: $cyan;
+        }
+    }
+    &-bottom-is {
+        &--yellow {
+            border-bottom: 3px solid;
+            border-color: $yellow;
+        }
+        &--pastelgrey {
+            border-bottom: 3px solid;
+            border-color: $pastelgrey;
+        }
+        &--orange {
+            border-bottom: 3px solid;
+            border-color: $orange;
+        }
+        &--cyan {
+            border-bottom: 3px solid;
+            border-color: $cyan;
+        }
+
+    }
+}

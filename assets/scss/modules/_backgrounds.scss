@@ -1,0 +1,14 @@
+.bg-is{
+    &--yellow {
+        background-color: $yellow;
+    }
+    &--blue {
+        background-color: $blue;
+    }
+    &--pastelgrey {
+        background-color: $pastelgrey;
+    }
+    &--orange {
+        background-color: $orange;
+    }
+}
